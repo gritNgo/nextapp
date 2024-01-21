@@ -17,11 +17,11 @@ const Home = () => {
           <button className={styles.button}>Contact</button>
         </div>
         <div className={styles.brands}>
-          <Image src="/brands.png" alt="" fill className={styles.brandImg} />
+          <Image className={styles.brandImg} src="/brands.png" alt="" fill />
         </div>
       </div>
       <div className={styles.imgContainer}>
-        <Image src="/hero.gif" alt="" fill className={styles.heroImg} />
+        <Image className={styles.heroImg} src="/hero.gif" alt="" fill />
       </div>
     </div>
   );

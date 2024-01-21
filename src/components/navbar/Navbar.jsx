@@ -14,3 +14,5 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+// TODO: Make sidebar close on link click
