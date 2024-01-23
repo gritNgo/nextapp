@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 
-const connection = {};
+const connection = {}; // to check if connection exists already 
 
 export const connectToDb = async () => {
   try {

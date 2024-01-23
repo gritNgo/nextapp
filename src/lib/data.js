@@ -6,8 +6,8 @@ export const getPosts = async () => {
     connectToDb();
     const posts = await Post.find();
     return posts;
-  } catch (error) {
-    console.log(error);
+  } catch (err) {
+    console.log(err);
     throw new Error("Failed to fetch posts");
   }
 };
@@ -15,10 +15,10 @@ export const getPosts = async () => {
 export const getPost = async (slug) => {
   try {
     connectToDb();
-    const post = await Post.find({ slug: slug });
+    const post = await Post.find({ slug });
     return post;
-  } catch (error) {
-    console.log(error);
+  } catch (err) {
+    console.log(err);
     throw new Error("Failed to fetch post");
   }
 };
@@ -28,8 +28,8 @@ export const getUser = async (id) => {
     connectToDb();
     const user = await User.findById(id);
     return user;
-  } catch (error) {
-    console.log(error);
+  } catch (err) {
+    console.log(err);
     throw new Error("Failed to fetch user");
   }
 };
@@ -39,8 +39,8 @@ export const getUsers = async () => {
     connectToDb();
     const users = await User.find();
     return users;
-  } catch (error) {
-    console.log(error);
+  } catch (err) {
+    console.log(err);
     throw new Error("Failed to fetch users");
   }
 };

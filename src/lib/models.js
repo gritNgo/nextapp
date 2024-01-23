@@ -19,7 +19,6 @@ const userSchema = new mongoose.Schema(
     password: {
       type: String,
       required: true,
-      unique: true,
       min: 6,
     },
     img: {
@@ -30,7 +29,7 @@ const userSchema = new mongoose.Schema(
       default: false,
     },
   },
-  { timestamps: true }
+  { timestamps: true } // creates user creation date automatically
 );
 
 const postSchema = new mongoose.Schema(
