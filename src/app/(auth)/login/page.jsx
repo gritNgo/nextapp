@@ -1,20 +1,22 @@
-// import { signIn } from "@/lib/auth";
+import { auth, signIn } from "@/lib/auth";
 
-// const LoginPage = () => {
-//   const handleGithubLogin = async () => {
-//     "use server";
-//     await signIn("github");
-//   };
+const LoginPage = async () => {
 
-//   console.log(handleGithubLogin)
+    const session = await auth();
+    console.log(session)
 
-//   return (
-//     <div>
-//       <form action={handleGithubLogin}>
-//         <button>Login with Github</button>
-//       </form>
-//     </div>
-//   );
-// };
+  const handleGithubLogin = async () => {
+    "use server";
+    await signIn("github");
+  };
 
-// export default LoginPage;
+  return (
+    <div>
+      <form action={handleGithubLogin}>
+        <button>Login with Github</button>
+      </form>
+    </div>
+  );
+};
+
+export default LoginPage;
