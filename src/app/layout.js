@@ -26,3 +26,8 @@ export default function RootLayout({ children }) {
     </html>
   )
 }
+
+/* TODOS: 
+* Make sidebar close on link click
+* separate concerns of pages to put <metadata> but can't as they're "use client" components
+*/
