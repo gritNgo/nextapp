@@ -8,6 +8,7 @@ export const addPost = async (formData) => {
   // const title = formData.get("title")
   // const desc = formData.get("desc")
   // const slug = formData.get("slug")
+  // destructured below
 
   const { title, desc, slug, userId } = Object.fromEntries(formData);
   try {
@@ -21,6 +22,8 @@ export const addPost = async (formData) => {
 
     await newPost.save();
     console.log("Saved to db");
+
+    // after successful add post operation, update page
     revalidatePath("/blog");
   } catch (error) {
     console.log(error);

@@ -32,7 +32,7 @@ const SinglePostPage = async ({ params }) => {
   // FETCHING USING AN API
   const post = await getData(slug);
 
-  // FETCHING WITHOUT AN API WITH LOCAL DATA FILE
+  // FETCHING WITHOUT AN API 
   // const post = await getPost(slug); 
 
   return (

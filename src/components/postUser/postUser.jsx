@@ -17,7 +17,7 @@ const PostUser = async ({ userId }) => {
   // FETCHING USING AN API
   // const user = await getData(userId);
 
-  // FETCHING USING AN API
+  // FETCHING WITHOUT USING AN API
   const user = await getUser(userId);
 
   return (
