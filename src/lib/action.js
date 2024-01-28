@@ -61,7 +61,7 @@ export const register = async (previousState, formData) => {
     Object.fromEntries(formData);
 
   if (password != passwordRepeat) {
-    return {error: "Passwords don't match"}
+    return { error: "Passwords don't match" };
   }
 
   try {
@@ -70,7 +70,7 @@ export const register = async (previousState, formData) => {
     const user = await User.findOne({ username });
 
     if (user) {
-      return {error: "Username already exists"}
+      return { error: "Username already exists" };
     }
 
     const salt = await bcrypt.genSalt(10);
@@ -86,20 +86,23 @@ export const register = async (previousState, formData) => {
     await newUser.save();
     console.log("Saved to db");
 
-    return {success: true}
+    return { success: true };
   } catch (error) {
     console.log(err);
     return { error: "Something went wrong" };
   }
 };
 
-export const login = async (formData) => {
+export const login = async (prevState, formData) => {
   const { username, password } = Object.fromEntries(formData);
 
   try {
     await signIn("credentials", { username, password });
   } catch (err) {
     console.log(err);
-    return { error: "Something went wrong" };
+    if (err.message.includes("CredentialsSignin")) {
+      return { error: "Invalid username or password" };
+    }
+    throw err;
   }
 };
