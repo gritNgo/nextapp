@@ -29,5 +29,9 @@ export default function RootLayout({ children }) {
 
 /* TODOS: 
 * Make sidebar close on link click
-* separate concerns of pages to put <metadata> but can't as they're "use client" components
+* Separate concerns of pages to put <metadata> but can't as they're "use client" components
+* Add "Are you sure?" when deleting posts as user/admin
+* Password can take duplicates in DB
+* Add gap between posts & add new post in admin panel
+* Fix error "Failed to parse src "img" on `next/image`"
 */
