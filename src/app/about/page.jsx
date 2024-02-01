@@ -10,13 +10,9 @@ const AboutPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.textContainer}>
-        <h2 className={styles.subtitle}>About this app PLACEHOLDER</h2>
-        <h1 className={styles.title}>HERO TEXT PLACEHOLDER</h1>
+        <h1 className={styles.title}>About this Application</h1>
         <p className={styles.desc}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum rerum
-          nostrum quaerat, nam tempora aspernatur fugiat ducimus ipsa nulla eos,
-          accusantium error dolorum, cupiditate qui magni esse provident ex
-          repudiandae.
+          This is my portfolio and it was made using Next.js and deployed to Vercel. 
         </p>
         <div className={styles.boxes}>
           <div className={styles.box}>

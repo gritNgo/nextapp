@@ -10,12 +10,10 @@
     gap: 50px;
 }
 
-.subtitle {
-    color: var(--btn);
-}
 
 .title {
-    font-size: 54px;
+    font-size: 45px;
+    color: var(--btn)
 }
 
 .desc {
