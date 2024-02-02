@@ -1,18 +1,34 @@
 .container {
     height: 100px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     color: gray;
     margin-top: 50px;
 }
 
-.logo {
-    font-weight: bold;
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
 }
 
-.text {
+.created {
+    font-size: 12px;
+    flex: 1;
+}
+
+.copyright {
     font-size: 12px; 
+}
+
+.icons {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    gap: 10px;
+
+}
+
+.linkedinIcon, .githubIcon {
+    font-size: 20px;
 }
 
 @media (max-width: 768px) {
