@@ -27,7 +27,7 @@ const Home = () => {
           <p>
             Moving to this beautiful country had always been a dream of mine. 
             I began 2024 by finally making the move from where I called home for
-            nearly the last decade, and am now looking for an opportunity where
+            nearly a decade, and am now looking for an opportunity where
             I will be able to contribute in creating meaningful work and prove
             that I am a capable individual that will provide value in the team.
           </p>

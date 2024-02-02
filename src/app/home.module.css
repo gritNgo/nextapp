@@ -51,9 +51,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3px;
-    transition: all 0.2s ease-in-out; 
-    display: inline-block;
+    gap: 2px;
 }
 
 .linkedinButton {
@@ -96,7 +94,11 @@
     transform: translateY(-5px)
 }
 
-
+.imgContainer {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
 
 .heroImg {
     border-radius: 10px;

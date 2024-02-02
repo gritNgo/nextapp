@@ -7,10 +7,10 @@ const Footer = () => {
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <div className={styles.created}>
-          Built in Next.js & deployed on Vercel
+          <b>Built in Next.js & deployed on Vercel</b>
         </div>
         <div className={styles.copyright}>
-          Fiorenso Wattalage Fernando © All rights reserved.
+          <b>© 2024 Fiorenso Wattalage Fernando</b>
         </div>
         <div className={styles.icons}>
           <Link href="https://www.linkedin.com/in/fiorenso-wattalage-fernando/">
