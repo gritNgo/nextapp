@@ -11,11 +11,6 @@
 }
 
 
-.title {
-    font-size: 45px;
-    color: var(--btn)
-}
-
 .desc {
     font-size: 20px;
     font-weight: 300;
@@ -34,7 +29,8 @@
 }
 
 .box h1 {
-    color: var(--btn);
+    color: var(--textSoft);
+    font-size: 30px;
 }
 
 .imgContainer {

@@ -1,7 +1,10 @@
 .container {
-    height: 100px;
+    height: 70px;
     color: gray;
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .wrapper {

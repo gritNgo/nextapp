@@ -7,7 +7,7 @@ const Footer = () => {
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <div className={styles.created}>
-          Created using Next.js, deployed on Vercel
+          Built in Next.js & deployed on Vercel
         </div>
         <div className={styles.copyright}>
           Fiorenso Wattalage Fernando © All rights reserved.

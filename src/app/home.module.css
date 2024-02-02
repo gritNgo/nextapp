@@ -51,6 +51,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 3px;
+    transition: all 0.2s ease-in-out; 
+    display: inline-block;
 }
 
 .linkedinButton {
@@ -83,13 +86,14 @@
 
 .email {
     font-size: 20px;
-    transition: background 0.5s, transform 0.5s; 
+    transition: all 0.2s ease-in-out; 
     box-shadow: inset 0 -3px 0 var(--btn);
+    display: inline-block;
 }
 
 .email:hover {
-    background: var(--btn);
-    transform: translateY(-10px)
+    background: #0A66C2;
+    transform: translateY(-5px)
 }
 
 
