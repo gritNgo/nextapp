@@ -12,17 +12,22 @@ const Home = () => {
             👋🏻
           </span>
         </h1>
-        <p className={styles.desc}>
-          I am a junior Full Stack JavaScript developer on the journey to become
-          an expert in the field. I am looking for an opportunity where I will
-          be able to contribute in creating meaningful work and prove that I am
-          a capable individual that will provide value in the team.
-          <br></br>
-          <span className={styles.initials}>
-            {" "}
-            (FWF are my initials if you were wondering 😁)
-          </span>
-        </p>
+        <div className={styles.desc}>
+          <p>
+            I am a junior Full Stack JavaScript developer on a journey to become
+            an expert in the field.
+          </p>
+          <p>
+            After getting my Computing degree in London in 2022 I started
+            traveling for about a year while working part-time, which was a much
+            needed break after years of studying.{" "}
+          </p>
+          <p>Moving to this beautiful country had always been a dream of mine and I
+          began 2024 by finally making the move from where I called home for nearly the last decade, and am now looking for an
+          opportunity where I will be able to contribute in creating meaningful
+          work and prove that I am a capable individual that will provide value
+          in the team.</p>
+        </div>
         <div className={styles.buttons}>
           <button className={styles.button}>Portfolio</button>
           <button className={styles.button}>Contact</button>
@@ -34,15 +39,22 @@ const Home = () => {
               <a
                 href="mailto:fiorenso.fernando8@gmail.com"
                 target="blank"
-                className={styles.highlight}
-              ></a>
-              fiorenso.fernando8@gmail.com
+                className={styles.email}
+              >
+                fiorenso.fernando8@gmail.com
+              </a>
             </span>
           </span>
         </div>
       </div>
       <div className={styles.imgContainer}>
-        <Image className={styles.heroImg} src="/hero.gif" alt="" fill />
+        <Image
+          className={styles.heroImg}
+          src="/amps8.jpeg"
+          alt=""
+          width={350}
+          height={450}
+        />
       </div>
     </div>
   );

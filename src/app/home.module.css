@@ -11,7 +11,7 @@
 }
 
 .title {
-    font-size: 45px;
+    font-size: 40px;
 }
 
 .wave {
@@ -23,8 +23,12 @@
 }
 
 .desc {
+    height: 200px;
     margin-top: -20px;
-    font-size: 20px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .initials {
@@ -68,9 +72,21 @@
     justify-content: center;
 }
 
-.imgContainer {
-    flex: 1;
-    position: relative;
+.email {
+    font-size: 20px;
+    transition: background 0.5s, transform 0.5s; 
+    box-shadow: inset 0 -3px 0 var(--btn);
+}
+
+.email:hover {
+    background: var(--btn);
+    transform: translateY(-10px)
+}
+
+
+
+.heroImg {
+    border-radius: 10px;
 }
 
 @media (max-width: 1024px) {
