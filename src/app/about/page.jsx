@@ -15,6 +15,41 @@ const AboutPage = () => {
         </div>
         <div className={styles.stackContainer}>
           <h2>TECHNOLOGIES I'VE WORKED WITH</h2>
+          <div className={styles.stack}>
+            <div>
+              <img src="" alt="" />
+            </div>
+            <div>
+              <img src="" alt="" />
+            </div>
+            <div>
+              <img src="" alt="" />
+            </div>
+            <div>
+              <img src="" alt="" />
+            </div>
+            <div>
+              <img src="" alt="" />
+            </div>
+            <div>
+              <img src="" alt="" />
+            </div>
+            <div>
+              <img src="" alt="" />
+            </div>
+            <div>
+              <img src="" alt="" />
+            </div>
+            <div>
+              <img src="" alt="" />
+            </div>
+            <div>
+              <img src="" alt="" />
+            </div>
+            <div>
+              <img src="" alt="" />
+            </div>
+          </div>
         </div>
       </div>
       <div className={styles.boxes}>
