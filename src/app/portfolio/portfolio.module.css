@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.project {
+  border: 1px solid whitesmoke;
+  display: flex;
+  width: 100%;
+}
+
+.card {
+  padding: 0px;
+  margin: 0 auto;
+  border: 1px solid gold;
+  overflow: hidden;
+}
+
+.image {}
+
+.desc {
+    flex: 2
+}

@@ -59,7 +59,7 @@ const AboutPage = () => {
             As I evidently lack years of expertise that many other web
             developers have, I am working double time to close this gap
             by constantly improving. This first version of the project serves{" "}
-            <b> 3 demonstrative purposes: ---{'>'}</b>
+            <b> 3 demonstrative purposes ---{'>'}</b>
           </div>
         </div>
       </div>

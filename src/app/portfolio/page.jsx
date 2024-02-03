@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./portfolio.module.css";
+import Link from "next/link";
 
 export const metadata = {
   title: "Portfolio Page",
@@ -8,19 +9,76 @@ export const metadata = {
 
 const PortfolioPage = () => {
   return (
-    <div>
-      <div>PROJECTS</div>
-      <div>Portfolio</div>
-      <p>Posts can be viewed only if
-            logged in (logged in by default for demo), but only admin can
-            create/update/delete posts.
-          </p>
-          <p>
-            (If you like to see for yourself use: username = John, password =
-            password)
-          </p>
+    <div className={styles.container}>
+      <div className={styles.project}>
+        <div className={styles.card}>
+      <Image
+          className={styles.image}
+          src="/thumbnails/final3.png"
+          alt=""
+          width={420}
+          height={200}
+          />
+          </div>
+        <div className={styles.desc}>
+          <h3>This Portfolio</h3>
+          <ul>
+            <li>#1</li>
+            <li>#2</li>
+            <li>#3</li>
+          </ul>
+        </div>
+      </div>
+      <div className={styles.project}>
+        <div className={styles.card}>
+      <Image
+          className={styles.image}
+          src="/thumbnails/ecommerceThumbnail.png"
+          alt=""
+          width={420}
+          height={200}
+          />
+          </div>
+        <div className={styles.desc}>
+          <h3>Yako (E-Commerce Store)</h3>
+          <ul>
+            <li>#1</li>
+            <li>#2</li>
+            <li>#3</li>
+          </ul>
+        </div>
+      </div>
+      <div className={styles.project}>
+        <div className={styles.card}>
+      <Image
+          className={styles.image}
+          src="/thumbnails/catchballThumbnail.png"
+          alt=""
+          width={420}
+          height={200}
+          />
+          </div>
+        <div className={styles.desc}>
+          <h3>Catchball (JavaScript Game)</h3>
+          <ul>
+            <li>#1</li>
+            <li>#2</li>
+            <li>#3</li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };
 
 export default PortfolioPage;
+
+/**
+ * Catch-the-ball (JavaScript Game)
+ * Yako (E-Commerce)
+ * Portfolio
+ * Posts can be viewed only if logged in (logged in by default for demo),
+          but only admin can create/update/delete posts
+*  (If you like to see for yourself use: username = John, password =
+          password)
+ */

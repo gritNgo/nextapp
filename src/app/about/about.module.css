@@ -20,7 +20,7 @@
     font-size: 30px;
     margin-bottom: 30px;
     color: var(--text);
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .stack {
@@ -46,9 +46,10 @@
     gap: 10px;
     text-align: center;
 }
+
 .aboutTitle{
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 
@@ -56,7 +57,9 @@
     text-align: center;
 }
 
-
+.desc {
+    line-height: 40px;
+}
 
 .boxes {
     display: flex;
