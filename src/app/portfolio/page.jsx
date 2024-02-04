@@ -14,7 +14,7 @@ const PortfolioPage = () => {
         <a href="" className={styles.card}>
           <Image
             className={styles.image}
-            src="/thumbnails/final3.png"
+            src="/thumbnails/portfolioThumbnail.png"
             alt=""
             width={420}
             height={200}
@@ -60,7 +60,7 @@ const PortfolioPage = () => {
               Firebase is used as storage for users and products.
             </li>
             <li>
-              Still in production, but can be previewed here: *insert link here*
+              Still in production, click to preview.
             </li>
           </ul>
         </div>
@@ -82,8 +82,9 @@ const PortfolioPage = () => {
               Simple 2D game in Vanilla JavaScript.{" "}
             </li>
             <li>Characters throw the ball to each other using mouse-click/press-hold drag. If
-              the other catches, thrower wins. Still in development.</li>
+              the other catches, thrower wins.</li>
             <li>JavaScript is used draw the characters and background on a canvas element.</li>
+            <li>Still in production, click to preview.</li>
           </ul>
         </div>
       </div>

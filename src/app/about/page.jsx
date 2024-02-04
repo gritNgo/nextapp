@@ -58,8 +58,9 @@ const AboutPage = () => {
           <div className={styles.desc}>
             As I evidently lack years of expertise that many other web
             developers have, I am working double time to close this gap
-            by constantly improving. This first version of the project serves{" "}
-            <b> 3 demonstrative purposes ---{'>'}</b>
+            by constantly improving daily. 
+            <p>This first version of the project serves{" "}
+            <b> 3 demonstrative purposes &nbsp; ---{'>'}</b></p>
           </div>
         </div>
       </div>
