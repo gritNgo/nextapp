@@ -4,9 +4,9 @@ import PostUser from "@/components/postUser/postUser";
 import { Suspense } from "react";
 import { getPost } from "@/lib/data";
 
-//FETCHING USING API
+// FETCHING USING THE API
 const getData = async (slug) => {
-  const res = await fetch(`http://localhost:3000/api/blog/${slug}`);
+  const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${slug}`);
 
   if (!res.ok) {
     throw Error("Something went wrong");
@@ -22,14 +22,14 @@ export const generateMetadata = async ({ params }) => {
 
   return {
     title: post.title,
-    description: post.desc,
+    description: post.body,
   };
 };
 
 const SinglePostPage = async ({ params }) => {
   const { slug } = params;
 
-  // FETCHING USING AN API
+  // Fetching from the endpoint
   const post = await getData(slug);
 
   // FETCHING WITHOUT AN API 
@@ -37,11 +37,6 @@ const SinglePostPage = async ({ params }) => {
 
   return (
     <div className={styles.container}>
-      {post.img && (
-        <div className={styles.imgContainer}>
-          <Image className={styles.img} src={post.img} alt="" fill />
-        </div>
-      )}
       <div className={styles.textContainer}>
         <h1 className={styles.title}>{post?.title}</h1>
         <div className={styles.detail}>
@@ -52,12 +47,9 @@ const SinglePostPage = async ({ params }) => {
           )}
           <div className={styles.detailText}>
             <span className={styles.detailTitle}>Published</span>
-            <span className={styles.detailValue}>
-              {post.createdAt.toString().slice(4, 16)}
-            </span>
           </div>
         </div>
-        <div className={styles.content}>{post.desc}</div>
+        <div className={styles.content}>{post.body}</div>
       </div>
     </div>
   );

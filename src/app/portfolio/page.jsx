@@ -33,7 +33,7 @@ const PortfolioPage = () => {
             <li>
               Posts can be viewed only if logged in (logged in by default for
               demo (username: John, password: password)), but{" "}
-              <i>only admin can create/update/delete posts.</i>
+              <i>only admin</i> can create/update/delete posts.
             </li>
             <li>
               These are fetched using the <b>JSONPlaceholder</b> website's fake

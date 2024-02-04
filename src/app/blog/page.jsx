@@ -9,7 +9,7 @@ export const metadata = {
 
 // FETCHING USING API
 const getData = async () => {
-  const res = await fetch("http://localhost:3000/api/blog");
+  const res = await fetch("https://jsonplaceholder.typicode.com/posts/?_limit=9");
 
   if (!res.ok) {
     throw Error("Something went wrong");
@@ -22,10 +22,7 @@ const BlogPage = async () => {
   
   // FETCHING USING API
   const posts = await getData();
-
-  // FETCHING WITHOUT AN API WITH LOCAL DATA FILE
-  // const posts = await getPosts();
-
+  
   return (
     <div className={styles.container}>
       {posts.map((post) => (

@@ -1,4 +1,3 @@
-import { transpilePackages } from "../../next.config";
 
 export const authConfig = {
   pages: {
