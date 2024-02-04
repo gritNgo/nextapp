@@ -76,8 +76,7 @@ const AboutPage = () => {
             <h3>2) REST API: Fetching data</h3>
           </b>
           <p>
-            The Blog page fetches fake data from the <i>JSONPlaceholder</i>{" "}
-            website, as is usually done for prototyping products.
+            The Blog page fetches fake data for it's posts, as is usually done for prototype products.
           </p>
         </div>
         <div className={styles.box}>

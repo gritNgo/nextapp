@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/navbar/Navbar'
 import Footer from '@/components/footer/Footer'
+import Image from 'next/image'
 <link rel="icon" href="/favicon.ico" sizes="any" />
 
 const inter = Inter({ subsets: ['latin'] })
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
         <div className='container'>
         <Navbar />  
         {children}
+        <Image src="/stars.jpg" layout='fill' objectFit='cover' style={{opacity: 0.5}}/>
         <Footer />
         </div>
         </body>
