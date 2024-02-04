@@ -6,6 +6,12 @@
   margin-top: 30px;
 }
 
+.projects {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
 .project {
   border: 1px solid whitesmoke;
   display: flex;
@@ -19,12 +25,10 @@
 .card {
   padding: 0px;
   margin: 0;
-  
 }
 
 .image {
   border-radius: 10px;
-
 }
 
 .desc {
@@ -35,7 +39,7 @@
 
 .desc h3 {
   text-decoration: underline;
-  font-weight: 600;
+  font-weight: 900;
   font-size: 20px;
 }
 

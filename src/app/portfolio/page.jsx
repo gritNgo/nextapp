@@ -10,7 +10,8 @@ export const metadata = {
 const PortfolioPage = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.project}>
+      <div className={styles.projects}>
+        <div className={styles.project}>
         <a href="" className={styles.card}>
           <Image
             className={styles.image}
@@ -42,6 +43,8 @@ const PortfolioPage = () => {
           </ul>
         </div>
       </div>
+      </div>
+      <div className={styles.projects}>
       <div className={styles.project}>
         <a href="" className={styles.card}>
           <Image
@@ -68,6 +71,8 @@ const PortfolioPage = () => {
           </ul>
         </div>
       </div>
+      </div>
+      <div className={styles.projects}>
       <div className={styles.project}>
         <a href="" className={styles.card}>
           <Image
@@ -98,6 +103,7 @@ const PortfolioPage = () => {
           </ul>
         </div>
       </div>
+    </div>
     </div>
   );
 };
