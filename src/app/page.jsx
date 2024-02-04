@@ -45,10 +45,13 @@ const Home = () => {
               GitHub
             </button>
           </Link>
+          <button className={styles.resumeButton}>
+            Resume
+          </button>
         </div>
         <div className={styles.contact}>
           <span className={styles.contactText}>
-            Get In Touch <span className={styles.contactEmoji}>👉</span>
+            Get In Touch <span className={styles.contactEmoji}>👉🏽</span>
             <span>
               <a
                 href="mailto:fiorenso.fernando8@gmail.com"

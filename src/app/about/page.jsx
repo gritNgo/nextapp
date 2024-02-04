@@ -56,11 +56,11 @@ const AboutPage = () => {
             I chose web development as my career only in 2023.
           </div>
           <div className={styles.desc}>
-            As I evidently lack years of expertise that many other web
+            <p>As I evidently lack years of expertise that many other web
             developers have, I am working double time to close this gap
-            by constantly improving daily. 
+            by constantly improving daily.</p>
             <p>This first version of the project serves{" "}
-            <b> 3 demonstrative purposes &nbsp; ---{'>'}</b></p>
+            <b> 3 demonstrative purposes: &nbsp; ---{'>'}</b></p>
           </div>
         </div>
       </div>

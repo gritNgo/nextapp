@@ -24,10 +24,11 @@ const PortfolioPage = () => {
           <h3>Portfolio</h3>
           <ul>
             <li>
-              <b>
-                Next.js 14 full-stack app project using app router, server
-                actions, MongoDB, Auth.js.
-              </b>
+              <p className={styles.stack}>
+                  Next.js 14 full-stack app project using app router, server
+                  actions, MongoDB, Auth.js.
+                
+              </p>
             </li>
             <li>
               Posts can be viewed only if logged in (logged in by default for
@@ -45,7 +46,7 @@ const PortfolioPage = () => {
         <a href="" className={styles.card}>
           <Image
             className={styles.image}
-            src="/thumbnails/ecommerceThumbnail.png"
+            src="/thumbnails/yako.png"
             alt=""
             width={420}
             height={200}
@@ -54,14 +55,16 @@ const PortfolioPage = () => {
         <div className={styles.desc}>
           <h3>Yako (E-Commerce Store)</h3>
           <ul>
-            <li>Full stack shopping application using MERN.</li>
+            <li>
+              <p className={styles.stack}>
+                Full stack shopping application using MERN.
+              </p>
+            </li>
             <li>
               After logging in user can make payments thanks to Stripe API, and
               Firebase is used as storage for users and products.
             </li>
-            <li>
-              Still in production, click to preview.
-            </li>
+            <li>Still in production, click to preview.</li>
           </ul>
         </div>
       </div>
@@ -79,11 +82,18 @@ const PortfolioPage = () => {
           <h3>Catchball (JavaScript Game)</h3>
           <ul>
             <li>
-              Simple 2D game in Vanilla JavaScript.{" "}
+              <p className={styles.stack}>
+                Simple 2D game in Vanilla JavaScript.{" "}
+              </p>
             </li>
-            <li>Characters throw the ball to each other using mouse-click/press-hold drag. If
-              the other catches, thrower wins.</li>
-            <li>JavaScript is used draw the characters and background on a canvas element.</li>
+            <li>
+              Characters throw the ball to each other using
+              mouse-click/press-hold drag. If the other catches, thrower wins.
+            </li>
+            <li>
+              JavaScript is used draw the characters and background on a canvas
+              element.
+            </li>
             <li>Still in production, click to preview.</li>
           </ul>
         </div>
