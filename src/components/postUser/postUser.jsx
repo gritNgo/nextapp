@@ -16,7 +16,7 @@ const getData = async (userId) => {
 const PostUser = async ({ userId }) => {
   // FETCHING USING AN API
   const user = await getData(userId);
-
+console.log(user)
   // FETCHING WITHOUT USING AN API
   // const user = await getUser(userId);
 

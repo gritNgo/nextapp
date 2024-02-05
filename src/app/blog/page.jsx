@@ -22,7 +22,6 @@ const BlogPage = async () => {
   
   // FETCHING USING API
   const posts = await getData();
-  
   return (
     <div className={styles.container}>
       {posts.map((post) => (

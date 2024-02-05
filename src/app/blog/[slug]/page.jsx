@@ -45,9 +45,6 @@ const SinglePostPage = async ({ params }) => {
               <PostUser userId={post.userId} />
             </Suspense>
           )}
-          <div className={styles.detailText}>
-            <span className={styles.detailTitle}>Published</span>
-          </div>
         </div>
         <div className={styles.content}>{post.body}</div>
       </div>

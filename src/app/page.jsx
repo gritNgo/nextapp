@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "./home.module.css";
 import { GitHub, LinkedIn } from "@mui/icons-material";
 import Link from "next/link";
+import Logo from "@/components/logo/page";
 
 const Home = () => {
   return (
@@ -11,13 +12,13 @@ const Home = () => {
           <br></br>
           Hi, I'm Fiorenso
           <span className={styles.wave} role="img" aria-labelledby="wave">
-            👋🏻
+            👋🏽
           </span>
         </h1>
         <div className={styles.desc}>
           <p>
             I am a junior Full Stack JavaScript developer on the journey to
-            become an expert in the field.
+            become an expert.
           </p>
           <p>
             After getting my Computing degree in London in 2022 I started
@@ -29,7 +30,7 @@ const Home = () => {
             I began 2024 by finally making the move from where I called home for
             nearly a decade, and am now looking for an opportunity where
             I will be able to contribute in creating meaningful work and prove
-            that I am a capable individual that will provide value in the team.
+            that I am an innovative and hard-working individual that will provide value in the team.
           </p>
         </div>
         <div className={styles.buttons}>
@@ -67,7 +68,7 @@ const Home = () => {
       <div className={styles.imgContainer}>
         <Image
           className={styles.heroImg}
-          src="/amps8.jpeg"
+          src="/home.jpg"
           alt=""
           width={350}
           height={450}

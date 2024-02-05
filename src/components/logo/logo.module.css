@@ -1,0 +1,14 @@
+/* styles.css */
+
+@font-face {
+    font-family: 'Ravie';
+    src: url('/public/fonts/RAVIE.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .logo {
+    font-family: 'Ravie', sans-serif;
+    font-size: 70px;
+  }
+  

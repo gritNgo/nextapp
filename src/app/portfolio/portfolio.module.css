@@ -4,27 +4,38 @@
   height: 100vh;
   justify-content: space-between;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .projects {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 80%;
   margin: auto;
+  gap: 40px;
 }
 
-.project {
+
+
+.card {
   border: 1px solid whitesmoke;
   display: flex;
   width: 100%;
-  height: 202px;
+  max-width: 1580px;
+  height: 215px;
   margin: 0;
   padding: 0;
   border-radius: 10px;
 }
 
-.card {
+.link {
   padding: 0px;
   margin: 0;
+}
+
+.title {
+  padding-top: 15px;
 }
 
 .image {
@@ -32,8 +43,6 @@
 }
 
 .desc {
-    flex: 2;
-    padding: 20px;
     text-align: center;
 }
 
@@ -54,4 +63,10 @@
 .desc li {
   padding: 5px;
   list-style: none;
+}
+
+/* ----- smaller screens ----- */
+
+@media only screen and (max-width: 600px) {
+  
 }

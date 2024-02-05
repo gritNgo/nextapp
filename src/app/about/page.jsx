@@ -2,6 +2,7 @@ import styles from "./about.module.css";
 
 const AboutPage = () => {
   return (
+    <div className={styles.mainContainer}>
     <div className={styles.container}>
       <div className={styles.main}>
         <div className={styles.stackContainer}>
@@ -90,6 +91,7 @@ const AboutPage = () => {
           </p>
         </div>
       </div>
+    </div>
     </div>
   );
 };

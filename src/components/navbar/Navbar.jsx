@@ -3,6 +3,7 @@ import Links from "./links/Links";
 import styles from "./navbar.module.css";
 import { auth } from "@/lib/auth";
 import Image from "next/image";
+import Logo from "../logo/page";
 
 const Navbar = async () => {
   const session = await auth();
@@ -10,7 +11,7 @@ const Navbar = async () => {
   return (
     <div className={styles.container}>
       <Link href="/">
-        <Image src="/logo.png" alt="logo" width={170} height={40} priority />
+        <Logo />
       </Link>
       <div>
         <Links session={session} />
