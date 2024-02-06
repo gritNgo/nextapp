@@ -64,7 +64,7 @@ const AboutPage = () => {
             developers have, I am working double time to close this gap
             by constantly improving daily.</p>
             <p>This first version of the project serves{" "}
-            <b> 3 demonstrative purposes: &nbsp; ---{'>'}</b></p>
+            <b> 3 demonstrative purposes: &nbsp;<span className={styles.arrow}>---{'>'}</span></b></p>
           </div>
         </div>
       </div>

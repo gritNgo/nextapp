@@ -8,10 +8,6 @@ import { auth } from "@/lib/auth";
 
 const links = [
   {
-    title: "Homepage",
-    path: "/",
-  },
-  {
     title: "About",
     path: "/about",
   },
@@ -30,55 +26,61 @@ const Links = ({ session }) => {
 
   return (
     <div className={styles.container}>
-      <a href="#" className={styles.toggleButton} onClick={() => setOpen((prev) => !prev)}>
+      <a
+        href="#"
+        className={styles.toggleButton}
+        onClick={() => setOpen((prev) => !prev)}
+      >
         <span className={styles.bar}></span>
         <span className={styles.bar}></span>
         <span className={styles.bar}></span>
       </a>
-      <div className={styles.links}>
-        {links.map((link) => (
-          <NavLink item={link} key={link.title} />
-        ))}
-        {session?.user ? (
-          <>
-            {session.user?.isAdmin && (
-              <NavLink item={{ title: "Admin", path: "/admin" }} />
-            )}
-            <form action={handleLogout}>
-              <button className={styles.logout}>Logout</button>
-            </form>
-          </>
-        ) : (
-          <NavLink item={{ title: "Login", path: "/login" }} />
-        )}
-      </div>
-      <Image
+      {open && (
+        <div className={styles.links}>
+          {links.map((link) => (
+            <NavLink item={link} key={link.title} className={styles.link} />
+          ))}
+          {session?.user ? (
+            <>
+              {session.user?.isAdmin && (
+                <NavLink item={{ title: "Admin", path: "/admin" }} />
+              )}
+              <form action={handleLogout}>
+                <button className={styles.logout}>Logout</button>
+              </form>
+            </>
+          ) : (
+            <NavLink item={{ title: "Login", path: "/login" }} />
+          )}
+        </div>
+      )}
+      {/* {open && (
+        <div className={styles.links}>
+          {links.map((link) => (
+            <NavLink item={link} key={link.title} />
+          ))}
+          {session?.user ? (
+            <>
+              {session.user?.isAdmin && (
+                <NavLink item={{ title: "Admin", path: "/admin" }} />
+              )}
+              <form action={handleLogout}>
+                <button className={styles.logout}>Logout</button>
+              </form>
+            </>
+          ) : (
+            <NavLink item={{ title: "Login", path: "/login" }} />
+          )}
+        </div>
+      )} */}
+      {/* <Image
         className={styles.menuButton}
         src="/menu.png"
         alt=""
         width={30}
         height={30}
-        // onClick={() => setOpen((prev) => !prev)}
-      />
-      {/* {open && (
-        <div className={styles.mobileLinks}>
-          {links.map((link) => (
-            <NavLink item={link} key={link.title} />
-          ))}
-          {session?.user ? (
-          <>
-            {session.user?.isAdmin && (
-              <NavLink item={{ title: "Admin", path: "/admin" }} />
-            )}
-            <form action={handleLogout}>
-              <button className={styles.logout}>Logout</button>
-            </form>
-          </>
-        ) : (
-          <NavLink item={{ title: "Login", path: "/login" }} />
-        )}
-        </div>
-      )} */}
+        onClick={() => setOpen((prev) => !prev)}
+      /> */}
     </div>
   );
 };
