@@ -28,11 +28,13 @@ const links = [
 const Links = ({ session }) => {
   const [open, setOpen] = useState(false);
 
-  // TEMPORARY
-  const isAdmin = true;
-
   return (
     <div className={styles.container}>
+      <a href="#" className={styles.toggleButton} onClick={() => setOpen((prev) => !prev)}>
+        <span className={styles.bar}></span>
+        <span className={styles.bar}></span>
+        <span className={styles.bar}></span>
+      </a>
       <div className={styles.links}>
         {links.map((link) => (
           <NavLink item={link} key={link.title} />
@@ -56,15 +58,27 @@ const Links = ({ session }) => {
         alt=""
         width={30}
         height={30}
-        onClick={() => setOpen((prev) => !prev)}
+        // onClick={() => setOpen((prev) => !prev)}
       />
-      {open && (
+      {/* {open && (
         <div className={styles.mobileLinks}>
           {links.map((link) => (
             <NavLink item={link} key={link.title} />
           ))}
+          {session?.user ? (
+          <>
+            {session.user?.isAdmin && (
+              <NavLink item={{ title: "Admin", path: "/admin" }} />
+            )}
+            <form action={handleLogout}>
+              <button className={styles.logout}>Logout</button>
+            </form>
+          </>
+        ) : (
+          <NavLink item={{ title: "Login", path: "/login" }} />
+        )}
         </div>
-      )}
+      )} */}
     </div>
   );
 };

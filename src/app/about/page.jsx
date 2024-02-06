@@ -18,6 +18,9 @@ const AboutPage = () => {
               <img src="/svg/react.svg" alt="React" width="50" height="50" />
             </div>
             <div className={styles.logo}>
+              <img src="/svg/express.svg" alt="Express" width="50" height="50" />
+            </div>
+            <div className={styles.logo}>
               <img
                 src="/svg/mongodb.svg"
                 alt="MongoDB"

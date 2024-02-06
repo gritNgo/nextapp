@@ -13,7 +13,7 @@ const PortfolioPage = () => {
       <div className={styles.projects}>
         
           <div className={styles.card}>
-            <a href="" className={styles.link}>
+            <a href="#" className={styles.link}>
               <Image
                 className={styles.image}
                 src="/thumbnails/portfolioThumbnail.png"
@@ -23,7 +23,7 @@ const PortfolioPage = () => {
               />
             </a>
               <div className={styles.desc}>
-                <a  href=""><h3 className={styles.title}>Portfolio</h3></a>
+                <a  href="#"><h3 className={styles.title}>Portfolio</h3></a>
                 <ul>
                   <li>
                     <p className={styles.stack}>
@@ -47,7 +47,7 @@ const PortfolioPage = () => {
         
         
           <div className={styles.card}>
-            <a href="" className={styles.link}>
+            <a href="#" className={styles.link}>
               <Image
                 className={styles.image}
                 src="/thumbnails/yakoThumbnail.png"
@@ -57,7 +57,7 @@ const PortfolioPage = () => {
               />
             </a>
               <div className={styles.desc}>
-                <a  href=""><h3 className={styles.title}>Yako (E-Commerce Store)</h3></a>
+                <a  href="#"><h3 className={styles.title}>Yako (E-Commerce Store)</h3></a>
                 <ul>
                   <li>
                     <p className={styles.stack}>
@@ -75,7 +75,7 @@ const PortfolioPage = () => {
         
         
           <div className={styles.card}>
-            <a href="" className={styles.link}>
+            <a href="#" className={styles.link}>
               <Image
                 className={styles.image}
                 src="/thumbnails/catchballThumbnail.png"
@@ -85,7 +85,7 @@ const PortfolioPage = () => {
                 />
                 </a>
               <div className={styles.desc}>
-                <a  href=""><h3 className={styles.title}>Catchball (JavaScript Game)</h3></a>
+                <a  href="#"><h3 className={styles.title}>Catchball (JavaScript Game)</h3></a>
                 <ul>
                   <li>
                     <p className={styles.stack}>
