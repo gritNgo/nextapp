@@ -22,16 +22,97 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 5px;
 }
 
 .linkedinIcon, .githubIcon {
     font-size: 20px;
 }
 
-@media (max-width: 768px) {
+/*MEDIA QUERIES*/
+
+@media (max-width: 1568px) {
     .container {
         display: flex;
         padding-top: 20px;
+    }
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .copyright {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+   }
+}
+
+@media (max-width: 1440px) {
+    .container {
+        display: flex;
+        padding-top: 20px;
+    }
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .copyright {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+   }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        display: flex;
+        padding-top: 20px;
+    }
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .copyright {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+   }
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        display: flex;
+        padding-top: 20px;
+    }
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .copyright {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+   }
+}
+@media (max-width: 426px) {
+
+    .container {
+        display: flex;
+        margin-top: 0px;
+
     }
     .wrapper {
         display: flex;

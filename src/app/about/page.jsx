@@ -77,13 +77,13 @@ const AboutPage = () => {
           <b>
             <h3>1) Portfolio</h3>
           </b>
-          <p>To showcase my current and future work.</p>
+          <p className={styles.boxDesc}>To showcase my current and future work.</p>
         </div>
         <div className={styles.box}>
           <b>
             <h3>2) REST API: Fetching data</h3>
           </b>
-          <p>
+          <p className={styles.boxDesc}>
             The Blog page fetches fake data for it's posts, as is usually done for prototype products.
           </p>
         </div>
@@ -91,7 +91,7 @@ const AboutPage = () => {
           <b>
             <h3>3) REST API: GitHub Authentication</h3>
           </b>
-          <p>
+          <p className={styles.boxDesc}>
             Integrated thanks to Auth.js, which automatically handles OAuth
             callbacks.
           </p>
