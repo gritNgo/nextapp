@@ -11,7 +11,13 @@
     font-family: 'Ravie', sans-serif;
     font-size: 70px;
   }
-  
+
+
+  @media (max-width: 769px) {
+    .logo {
+      font-size: 45px;
+    }
+  }  
 
   @media (max-width: 400px) {
     .logo {

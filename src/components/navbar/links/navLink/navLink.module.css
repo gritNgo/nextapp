@@ -6,28 +6,24 @@
  text-align: center;   
 }
 
+.container:hover {
+    opacity: 0.7;
+}
+
 .active {
     background-color: var(--text);
     color: var(--bg);
 }
 
 @media (max-width: 400px) {
-    .container {
-        font-size: 10px;
-        font-weight: 900;
-        background-color: rgba(17, 17, 162, 0.256);
-        min-width: 55%;
-    }
 
     .active {
         background-color: var(--text);
         color: var(--bg);
     }
 
-    /* .container {
-        min-width: 80px;
-        padding: 10px;
-        border-radius: 20px;
-        font-weight: 500;
-       } */
+    .container {
+        width: 100%;
+    border-radius: 0;
+    }
 }
