@@ -75,6 +75,7 @@
 .contactText {
     align-items: center;
     justify-content: center;
+    font-weight: 600;
 }
 
 .contactEmoji {
@@ -207,8 +208,13 @@
     }
 
     .desc {
-        gap: 30px;
-        font-size: 16px;
+        font-size: 13px;
+        line-height: 40px;
+        padding: 15px;
+        margin-top: -70px;
+    }
+    .desc p {
+        margin-bottom: -50px;
     }
 
     .buttons {
@@ -217,6 +223,7 @@
 
     .contact {
         justify-content: center;
+        margin-top: -50px;
     }
 }
 
@@ -233,15 +240,28 @@
     }
 
     .desc {
-        font-size: 14px;
+        font-size: 13px;
+        line-height: 20px;
+        padding: 15px;
+        margin-top: -70px;
+    }
+    .desc p {
+        margin-bottom: -30px;
     }
     .heroImg {
         width: 250px;
         height: 350px;
     }
+    .buttons{
+        margin-top: -15px;
+    }
 
     .contactText {
         align-items: center;
+    }
+    .contactEmoji{font-size: 22px;}
+    .email{
+        font-size: 18px;
     }
 }
 
@@ -262,8 +282,13 @@
     }
 
     .desc {
-        font-size: 12px;
-        line-height: 15px;
+        font-size: 11px;
+        line-height: 20px;
+        padding: 15px;
+        margin-top: -70px;
+    }
+    .desc p {
+        margin-bottom: -30px;
     }
     .heroImg {
         width: 180px;
@@ -278,9 +303,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 12px;
+        font-size: 10px;
         flex-direction: row;
         padding-bottom: 15px;
+    }
+    .contactEmoji{
+        font-size: 25px;
     }
     .email{
         font-size: 15px;
@@ -308,12 +336,19 @@
     }
 
     .desc {
-        font-size: 12px;
-        line-height: 15px;
+        font-size: 11px;
+        line-height: 20px;
+        padding: 15px;
+        margin-top: -70px;
+        margin-bottom: 15px;
     }
+    .desc p {
+        margin-bottom: -30px;
+    }
+    
     .heroImg {
         width: 200px;
-        height: 220px;
+        height: 250px;
         border-radius:50%;
         margin-top: -40px;
     }
@@ -331,9 +366,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 10px;
+        font-size: 12px;
         flex-direction: row;
-        padding-bottom: 15px;
+        margin-bottom: 15px;
+        margin-top: 5px;
+    }
+    .contactEmoji {
+        font-size: 20px;
     }
     .email{
         font-size: 15px;
@@ -354,29 +393,32 @@
     .title {
         font-size: 25px;
         margin: 0;
+        margin-bottom: 10px;
     }
 
     .textContainer {
         margin-top: -50px;
-        height: 70%;
+        height: 80%;
     }
 
     .desc {
-        font-size: 8px;
-        line-height: 10px;
-        padding: 20px;
+        font-size: 11px;
+        line-height: 15px;
+        padding: 15px;
         margin-top: -70px;
-        margin-bottom: -20px;
+    }
+    .desc p {
+        margin-bottom: -30px;
     }
     .heroImg {
         width: 200px;
-        height: 200px;
+        height: 250px;
         border-radius:50%;
         margin-bottom: 50px;
     }
 
     .buttons {
-        margin-top: -20px;
+        margin-top: -5px;
         padding: 0;
     }
 
@@ -392,11 +434,13 @@
         font-size: 8px;
         flex-direction: row;
         padding-bottom: 15px;
+        margin-top: 5px;
+
     }
     .contactEmoji{
-        font-size: 20px;
+        font-size: 18px;
     }
     .email{
-        font-size: 10px;
+        font-size: 11px;
     }
 }

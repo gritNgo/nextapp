@@ -402,6 +402,9 @@
   .intro, .desc {
     font-size: 12px;
   }
+  .intro {
+    margin-bottom: -5px;
+  }
   .desc p {
     line-height: 13px;
   }
@@ -414,7 +417,7 @@
     margin-top: -55px;
   }
   .box h3{
-    font-size: 10px;
+    font-size: 11px;
   }
   .boxDesc{
     font-size: 9px;

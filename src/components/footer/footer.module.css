@@ -175,11 +175,12 @@
    }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 325px) {
 
     .container {
         display: flex;
         margin-top: 40px;
+
     }
     .wrapper {
         display: flex;
