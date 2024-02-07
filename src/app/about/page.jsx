@@ -51,6 +51,9 @@ const AboutPage = () => {
             <div className={styles.logo}>
               <img src="/svg/git.svg" alt="Git" width="50" height="50" />
             </div>
+            <div className={styles.logo}>
+              <img src="/svg/github.svg" alt="GitHub" width="50" height="50" />
+            </div>
           </div>
         </div>
       <div className={styles.textContainer}>
@@ -63,7 +66,7 @@ const AboutPage = () => {
             <p>As I evidently lack years of expertise that many other web
             developers have, I am working double time to close this gap
             by constantly improving daily.</p>
-            <p>This first version of the project serves{" "}
+            <p className={styles.separator}>This first version of the project serves{" "}
             <b> 3 demonstrative purposes: &nbsp;<span className={styles.arrow}>---{'>'}</span></b></p>
           </div>
         </div>

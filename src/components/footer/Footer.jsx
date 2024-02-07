@@ -6,12 +6,6 @@ const Footer = () => {
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
-        <div className={styles.created}>
-          <b>Built in Next.js & deployed on Vercel</b>
-        </div>
-        <div className={styles.copyright}>
-          <b>© 2024 Fiorenso Wattalage Fernando</b>
-        </div>
         <div className={styles.icons}>
           <Link href="https://www.linkedin.com/in/fiorenso-wattalage-fernando/">
             <LinkedIn className={styles.linkedinIcon} />
@@ -21,6 +15,9 @@ const Footer = () => {
           </Link>
         </div>
       </div>
+        <div className={styles.copyright}>
+          <b>© 2024 Fiorenso Wattalage Fernando</b>
+        </div>
     </div>
   );
 };
