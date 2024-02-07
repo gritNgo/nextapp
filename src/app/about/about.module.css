@@ -246,10 +246,6 @@
   }
   .mainContainer {
   }
-  
-  .container {
-    
-  }
 
   .stackContainer {
     height: 500px;
@@ -285,6 +281,52 @@
     flex-direction: column;
     align-items: flex-start;
   }
+  .arrow {
+    display: none;
+  }
+}
+
+@media (max-width: 376px) {
+  .mainContainer{
+    margin-top: 15px;
+  }
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .stackContainer{
+    padding: 0;
+  }
+
+  .textContainer {
+    padding: 0;
+
+  }
+  .stackTitle{
+    font-size: 20px;
+    padding-top: 5px;
+  } .aboutTitle{
+    font-size: 20px;
+  }
+  .intro, .desc {
+    font-size: 12px;
+  }
+  .logo{
+    width: 30;
+    height: 30;
+  }
+
+  .boxes {
+    margin-top: -30px;
+  }
+  .box h3{
+    font-size: 12px;
+  }
+  .boxDesc{
+    font-size: 9px;
+    display: inline;
+  }
+
   .arrow {
     display: none;
   }

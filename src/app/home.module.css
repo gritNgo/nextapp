@@ -15,41 +15,6 @@
     font-size: 40px;
 }
 
-
-.wave {
-    animation-name: wave-animation; /* Refers to name of @keyframes element below */
-    animation-duration: 2s; /* Change to speed up or slow down */
-    transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
-    display: inline-block;
-  }
-  
-  @keyframes wave-animation {
-    0% {
-      transform: rotate(0deg);
-    }
-    10% {
-      transform: rotate(14deg);
-    } /* The following five values can be played with to make the waving more or less extreme */
-    20% {
-      transform: rotate(-8deg);
-    }
-    30% {
-      transform: rotate(14deg);
-    }
-    40% {
-      transform: rotate(-4deg);
-    }
-    50% {
-      transform: rotate(10deg);
-    }
-    60% {
-      transform: rotate(0deg);
-    } /* Reset for the last half to pause */
-    100% {
-      transform: rotate(0deg);
-    }
-  }
-
 .desc {
     height: 200px;
     margin-top: -20px;
@@ -71,7 +36,7 @@
 .linkedinButton, .githubButton, .resumeButton
 {
     padding: 5px;
-    min-width: 100px;
+    width: 100px;
     cursor: pointer;
     border: none;
     border-radius: 5px;
@@ -142,6 +107,40 @@
     border-radius: 10px;
 }
 
+.wave {
+    animation-name: wave-animation; /* Refers to name of @keyframes element below */
+    animation-duration: 2s; /* Change to speed up or slow down */
+    transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(14deg);
+    } /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+      transform: rotate(-8deg);
+    }
+    30% {
+      transform: rotate(14deg);
+    }
+    40% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    } /* Reset for the last half to pause */
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
 /*MEDIA QUERIES*/
 
 @media (max-width: 1444px) {
@@ -158,15 +157,6 @@
     .container {
         text-align: center;
         gap: 15px;
-    }
-
-    .buttons {
-        /* justify-content: flex-start; */
-    }
-
-    .contact {
-        /* display: flex;
-        justify-content: flex-start; */
     }
 
     .heroImg {
@@ -221,13 +211,156 @@
     }
 }
 
-@media (max-width: 400px) {
-    .title {
-        font-size: 20px;
+@media (max-width: 640px) {
+
+    .container {
+        height: 70vh;
+        margin-bottom: 20px;
     }
 
+    .title {
+        font-size: 32px;
+        margin-top: 100px;
+    }
+
+    .textContainer {
+        padding: 20px;
+    }
+
+    .desc {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .heroImg {
+        width: 180px;
+        height: 250px;
+    }
+
+    .buttons {
+        margin-top: -20px;
+    }
+
+    .contactText {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        flex-direction: row;
+        padding-bottom: 15px;
+    }
+    .email{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 426px) {
+
+    .container {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-self: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .title {
+        font-size: 25px;
+        margin: 0;
+    }
+
+    .textContainer {
+        padding: 20px;
+        margin-top: -50px;
+    }
+
+    .desc {
+        font-size: 12px;
+        line-height: 15px;
+    }
     .heroImg {
         width: 200px;
-        height: 200px;
+        height: 220px;
+        border-radius:50%;
+        margin-top: -40px;
+    }
+
+    .buttons {
+        margin-top: -20px;
+    }
+
+    .linkedinButton, .githubButton, .resumeButton {
+        padding: 2px 1px;
+        font-size: 10px;
+    }
+
+    .contactText {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        flex-direction: row;
+        padding-bottom: 15px;
+    }
+    .email{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 325px) {
+
+    .container {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-self: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .title {
+        font-size: 25px;
+        margin: 0;
+    }
+
+    .textContainer {
+        padding: 20px;
+        margin-top: -50px;
+        height: 70%;
+    }
+
+    .desc {
+        font-size: 8px;
+        line-height: 10px;
+        padding: 10px;
+    }
+    .heroImg {
+        width: 180px;
+        height: 180px;
+        border-radius:50%;
+        margin-top: -10px;
+    }
+
+    .buttons {
+        margin-top: -20px;
+        padding: 0;
+    }
+
+    .linkedinButton, .githubButton, .resumeButton {
+        width: 70px;
+        font-size: 10px;
+    }
+
+    .contactText {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 8px;
+        flex-direction: row;
+        padding-bottom: 15px;
+    }
+    .contactEmoji{
+        font-size: 20px;
+    }
+    .email{
+        font-size: 10px;
     }
 }

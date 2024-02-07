@@ -1,5 +1,5 @@
 .container {
- min-width: 100px;
+ width: 100px;
  padding: 10px;
  border-radius: 20px;
  font-weight: 500;
@@ -21,8 +21,8 @@
         background-color: var(--text);
         color: var(--bg);
     }
-    .container a {
-        font-size: 12px;
+    .container {
+        width: 80px;
     }
 }
 

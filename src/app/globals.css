@@ -33,11 +33,10 @@ a {
     padding-left: 30px;
     padding-top: 30px;
     padding-right: 30px;
-    margin: 0;
 }
 
 
-@media (max-width: 1586) {
+/* @media (max-width: 1586) {
 
 }  
   @media (max-width: 1366px) {
@@ -60,7 +59,5 @@ a {
     
   }
   @media (max-width: 400px) {
-    .container {
-        width: 100%;
-    }
-  }
+    
+  } */
