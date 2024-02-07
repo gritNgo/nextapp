@@ -65,8 +65,8 @@ const PortfolioPage = () => {
                     </p>
                   </li>
                   <li>
-                    After logging in user can make payments thanks to Stripe
-                    API, and Firebase is used as storage for users and products.
+                    Once shopping cart has been filled and after logging in, user can make payments thanks to Stripe
+                    API. Firebase is used as storage of users and products.
                   </li>
                   <li>Still in production, click to preview.</li>
                 </ul>
