@@ -23,18 +23,20 @@
     }
     .container {
         width: 80px;
+        font-size: 15px;
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
 
     .active {
         background-color: var(--text);
         color: var(--bg);
     }
 
-    .mainContainer {
-        height: 100vh;
+    .container {
+        width: 100%;
+    border-radius: 0;
     }
 }
 

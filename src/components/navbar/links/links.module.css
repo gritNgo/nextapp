@@ -41,15 +41,46 @@
 
 @media (max-width: 769px) {
     .links {
-        font-size: 12px;
         gap:2px;
     }
   }
 
   @media (max-width: 640px) {
     .links {
-        font-size: 10px;
         gap:2px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .toggleButton {
+      display: flex;
+    }
+  
+    .mobileLinks {
+      position: absolute;
+      padding: 20px;
+      top: 80px;
+      width: 100%;
+      height: 270px;
+      background-color: rgb(8, 4, 41);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 10px;
+      font-size: 15px;
+      border-radius: 5px;
+    }
+  
+    .links {
+      display: none;
+    }
+  
+    .logout {
+      border-radius: 20px;
+      padding-right: 40px;
+      padding-left: 40px;
+      font-size: 14px;
     }
   }
 

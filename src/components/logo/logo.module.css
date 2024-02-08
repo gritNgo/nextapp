@@ -24,3 +24,9 @@
       font-size: 60px;
     }
   }
+
+  @media (max-width: 325px) {
+    .logo {
+      font-size: 50px;
+    }
+  }

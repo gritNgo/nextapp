@@ -32,13 +32,13 @@ const PortfolioPage = () => {
                     </p>
                   </li>
                   <li>
-                    Posts can be viewed only if logged in but{" "}
+                    Posts can be viewed only if logged in (with arbitrary credentials or GitHub) but{" "}
                     <i>only admin</i> can create/update/delete posts (logged in by default
                     for demo (username: john, password: 123456)).
                   </li>
                   <li>
                     These are fetched using the <b>JSONPlaceholder</b> website's
-                    fake data API which works for all posts and single post
+                    fake data REST API which works for all posts and single post
                     pages.
                   </li>
                 </ul>
