@@ -1,17 +1,17 @@
 .container {
     height: 70px;
     color: gray;
-    margin-top: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    padding: 0;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
 }
 
 .wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding: 10px;
 }
 
 .copyright {
@@ -30,213 +30,13 @@
 
 }
 
-/*MEDIA QUERIES*/
-@media (max-width: 1608px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
     .container {
-        display: flex;
-        padding-top: 20px;
+        margin-top: 30px;
     }
-    .wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .copyright {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 10px;
-   }
 }
-
-@media (max-width: 1568px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     .container {
-        display: flex;
-        padding-top: 20px;
+        margin-bottom: 30px;
     }
-    .wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .copyright {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 10px;
-   }
-}
-
-@media (max-width: 1440px) {
-    .container {
-        display: flex;
-        justify-content: center;
-        padding-bottom: 20px;
-
-    }
-    .wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .copyright {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 10px;
-   }
-}
-
-@media (max-width: 1280px) {
-    .container {
-        display: flex;
-        margin-top: 15px;
-        padding-top: 0;
-
-    }
-    .wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 0px;
-    }
-
-    .copyright {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 0px;
-        margin-bottom: -20px;
-   }
-}
-@media (max-width: 1024px) {
-    .container {
-        display: flex;
-        margin-top: 15px;
-        padding-top: 0;
-    }
-    .wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
-    }
-
-    .copyright {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: -25px;
-
-   }
-}
-
-@media (max-width: 768px) {
-
-    .container {
-        display: flex;
-        padding-top: 30px;
-    }
-    .wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .copyright {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 10px;
-   }
-}
-
-
-@media (max-width: 490px) {
-
-    .container {
-        display: flex;
-        padding-top: 20px;
-        margin-top: 70px;
-    }
-    .wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .copyright {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 10px;
-   }
-}
-
-@media (max-width: 426px) {
-
-    .container {
-        display: flex;
-        margin-top: 0px;
-        margin-top: 50px;
-    }
-    .wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .copyright {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 10px;
-   }
-}
-
-@media (max-width: 365px) {
-
-    .container {
-        display: flex;
-        margin-top: 80px;
-
-    }
-    .wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-
-    .copyright {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 10px;
-   }
-}
-
-@media (max-width: 320px) {
-
-    .container {
-        display: flex;
-        margin-top: 80px;
-
-    }
-    .wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-
-    .copyright {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 10px;
-   }
 }

@@ -102,7 +102,7 @@
 .logo {
   cursor: pointer;
 }
-
+/* 
 @media (max-width: 1440px) {
   .mainContainer {
     padding: 0;
@@ -591,4 +591,4 @@
   .arrow {
     display: none;
   }
-}
+} */

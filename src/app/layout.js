@@ -6,6 +6,7 @@ import Image from "next/image";
 <link rel="icon" href="/favicon.ico" sizes="any" />;
 
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {

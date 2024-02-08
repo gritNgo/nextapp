@@ -2,7 +2,6 @@ import Image from "next/image";
 import styles from "./home.module.css";
 import { GitHub, LinkedIn } from "@mui/icons-material";
 import Link from "next/link";
-import Logo from "@/components/logo/page";
 
 const Home = () => {
   return (
@@ -69,8 +68,8 @@ const Home = () => {
           className={styles.heroImg}
           src="/home.jpg"
           alt=""
-          width={350}
-          height={450}
+          width={300}
+          height={420}
         />
       </div>
     </div>
