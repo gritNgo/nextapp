@@ -163,6 +163,14 @@
   .aboutTitle {
     margin-top: -30px;
   }
+
+  .intro {
+    font-size: 22px;
+  }
+
+  .desc {
+    font-size: 22px;
+  }
   .wrapper {
     font-size: 15px;
     padding: 0;
@@ -181,9 +189,12 @@
     height: 100%;
   }
 
+  .mainContainer{
+    margin-top: -50px;
+  }
   .wrapper {
     margin-top: 10px;
-    line-height: 17px;
+    line-height: 30px;
   }
   .stackContainer {
     margin: 0;
@@ -191,11 +202,11 @@
     height: 40%;
     padding: 10px;
     margin-top: -60px;
-    margin-bottom: -40px;
+    margin-bottom: -200px;
   }
   .textContainer {
     padding-bottom: 0;
-    margin-bottom: -50px;
+    margin-bottom: -100px;
     margin-top: -120px;
   }
   .stackTitle {
@@ -208,12 +219,13 @@
   .intro {
     margin-top: 10px;
     margin-bottom: -10px;
+    font-size: 18px;
   }
  
   .desc {
     padding-bottom: 0;
-    line-height: 20px;
-    font-size: 16px;
+    line-height: 31px;
+    font-size: 18px;
   }
   .separator {
     margin-bottom: -10px;
@@ -229,57 +241,61 @@
     height: 50px;
     margin-top: -100px;
     margin-bottom: 50px;
-    padding-bottom: 70px;
+    padding-bottom: 100px;
   }
   .box {
     width: 30%;
     font-size: 13px;
+    
   }
 }
-@media (max-width: 640px) {
+
+@media (max-width: 541px) {
   .container {
     flex-direction: column;
     text-align: center;
     align-items: center;
     height: 100%;
   }
-  .mainContainer {
-    margin-top: 40px;
-    padding: 0px;
+
+  .main {
+    margin-bottom: -30px;
+  }
+
+  .wrapper {
+    margin-top: 10px;
+    line-height: 30px;
   }
   .stackContainer {
-    margin-top: -20px;
-    padding: 0px;
+    margin: 0;
     width: 100%;
-    height: 40%;
+    height: 50%;
+    padding: 15px;
+    margin-bottom: -20px;
+  }
+  .textContainer {
+    padding-bottom: 0;
+    margin-bottom: -50px;
+    margin-top: -150px;
   }
   .stackTitle {
     font-size: 30px;
   }
   .aboutTitle {
     font-size: 30px;
-    margin-bottom: 10px;
-  }
-
-  .textContainer {
-    margin-top: 10px;
-    padding-bottom: 0;
-    margin-bottom: -20px;
-  }
-  .wrapper {
-    margin-top: 10px;
-    line-height: 17px;
-  }
-  .intro {
-    margin-bottom: -10px;
-  }
-
-  .desc {
-    padding-bottom: 0;
-    line-height: 20px;
-    font-size: 16px;
   }
   
+  .intro {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    font-size: 17px;
+  }
+ 
+  .desc {
+    padding-bottom: 0;
+    line-height: 25px;
+    font-size: 17px;
+  }
   .separator {
     margin-bottom: -10px;
   }
@@ -292,31 +308,106 @@
     justify-content: space-between;
     width: 100%;
     height: 50px;
-    margin-top: -60px;
+    margin-top: -70px;
     margin-bottom: 50px;
-    padding-bottom: 70px;
+    padding-bottom: 100px;
   }
   .box {
     width: 30%;
     font-size: 13px;
+    
   }
-  
 }
 
-@media (max-width: 490px) {
+@media (max-width: 515px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .main {
+    margin-bottom: -30px;
+  }
+
+  .wrapper {
+    margin-top: 10px;
+    line-height: 30px;
+  }
+  .stackContainer {
+    margin: 0;
+    width: 100%;
+    height: 50%;
+    padding: 15px;
+    margin-bottom: 30px;
+  }
+  .textContainer {
+    padding-bottom: 0;
+    margin-bottom: -50px;
+  }
+  .stackTitle {
+    font-size: 30px;
+  }
+  .aboutTitle {
+    font-size: 30px;
+  }
+  
+  .intro {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    font-size: 17px;
+  }
+ 
+  .desc {
+    padding-bottom: 0;
+    line-height: 25px;
+    font-size: 17px;
+  }
+  .separator {
+    margin-bottom: -10px;
+  }
+  .arrow {
+    display: none;
+  }
+  .boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+  }
+  .box {
+    width: 30%;
+    font-size: 13px;
+    
+  }
+}
+
+
+@media (max-width: 430px) {
   .mainContainer {
     margin-top: -15px;
     padding: 0px;
   }
+
+  .main {
+    margin-bottom: -35px;
+  }
   .container {
     flex-direction: column;
     align-items: flex-start;
+    padding: 0px;
   }
   .stackContainer {
     margin-top: 10px;
     padding: 10px;
-    width: 70%;
-    height: 70%;
+    width: 100%;
+    height: 55%;
+    margin-bottom: -50px;
   }
 
   .textContainer {
@@ -325,11 +416,11 @@
     margin-bottom: 10px;
   }
   .stackTitle {
-    font-size: 20px;
+    font-size: 25px;
     padding-top: 5px;
   }
   .aboutTitle {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .wrapper {
@@ -342,12 +433,12 @@
     margin-bottom: -10px;
   }
   .desc p {
-    line-height: 15px;
+    line-height: 23px;
   }
 
   .intro,
   .desc {
-    font-size: 13px;
+    font-size: 15px;
   }
   .logo {
     width: 30;
@@ -358,10 +449,10 @@
     margin-top: -65px;
   }
   .box h3 {
-    font-size: 12px;
+    font-size: 14px;
   }
   .boxDesc {
-    font-size: 10px;
+    font-size: 12px;
     display: inline;
   }
 
@@ -370,33 +461,42 @@
   }
 }
 
-@media (max-width: 376px) {
+
+@media (max-width: 380px) {
   .mainContainer {
-    margin-top: 15px;
+    margin-top: -15px;
     padding: 0px;
   }
   .container {
     flex-direction: column;
     align-items: flex-start;
+    padding: 0px;
+  }
+  
+  .main {
+    margin-bottom: -70px;
   }
   .stackContainer {
-    padding: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    height: 50%;
+    margin-bottom: -140px;
   }
 
   .textContainer {
     padding: 0;
   }
   .stackTitle {
-    font-size: 20px;
-    padding-top: 5px;
+    font-size: 24px;
   }
   .aboutTitle {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .wrapper {
     margin-top: 10px;
-    line-height: 16px;
+    line-height: 17px;
   }
 
   .intro {
@@ -404,26 +504,22 @@
     margin-bottom: -10px;
   }
   .desc p {
-    line-height: 15px;
+    line-height: 20px;
   }
 
   .intro,
   .desc {
-    font-size: 13px;
-  }
-  .logo {
-    width: 30;
-    height: 30;
+    font-size: 15px;
   }
 
   .boxes {
     margin-top: -65px;
   }
   .box h3 {
-    font-size: 12px;
+    font-size: 14px;
   }
   .boxDesc {
-    font-size: 10px;
+    font-size: 12px;
     display: inline;
   }
 
@@ -432,7 +528,7 @@
   }
 }
 
-@media (max-width: 346px) {
+@media (max-width: 340px) {
   .container {
     flex-direction: column;
     align-items: flex-start;
@@ -441,11 +537,15 @@
   .mainContainer{
     padding: 0px;
   }
+
+  .main {
+    margin-bottom: -100px;
+  }
   .stackContainer {
     margin-top: 30px;
     padding: 5px;
-    height: 100%;
-
+    height: 50%;
+    margin-bottom: -70px;
   }
 
   .textContainer {
@@ -457,20 +557,20 @@
   }
   .wrapper {
     margin-top: 0;
-    line-height: 15px;
+    line-height: 18px;
   }
   .aboutTitle {
     font-size: 18px;
   }
   .intro,
   .desc {
-    font-size: 12px;
+    font-size: 15px;
   }
   .intro {
     margin-bottom: -10px;
   }
   .desc p {
-    line-height: 14px;
+    line-height: 19px;
   }
   .logo {
     width: 30;
@@ -481,10 +581,10 @@
     margin-top: -15px;
   }
   .box h3 {
-    font-size: 11px;
+    font-size: 13px;
   }
   .boxDesc {
-    font-size: 9px;
+    font-size: 11px;
     display: block;
   }
 

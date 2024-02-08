@@ -381,7 +381,7 @@
 
     
     .container {
-        height: 100vh;
+        height: 100%;
         width: 100%;
         display: flex;
         justify-self: flex-start;
@@ -396,8 +396,8 @@
     }
 
     .textContainer {
-        margin-top: -50px;
-        height: 80%;
+        /* margin-top: 50px; */
+        height: 100%;
     }
 
     .desc {
