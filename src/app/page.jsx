@@ -70,6 +70,7 @@ const Home = () => {
           alt=""
           width={300}
           height={420}
+          priority
         />
       </div>
     </div>

@@ -11,10 +11,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: {
-    default: "Next App Homepage",
-    template: "%s | Next App",
+    default: "Fiorenso Wattalage Fernando",
+    template: "%s | Portfolio",
   },
-  description: "My Next App",
+  description: "Portfolio",
 };
 
 export default function RootLayout({ children }) {
