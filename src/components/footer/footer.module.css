@@ -43,10 +43,12 @@
 
 @media (max-width: 340px) {
     .wrapper {
-        margin-bottom: -10px;
+        margin-bottom: -5px;
     }
     .linkedinIcon, .githubIcon {
         font-size: 14px;
-    
+    }
+    .copyright {
+        font-size: 10px; 
     }
 }
