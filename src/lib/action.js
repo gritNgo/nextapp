@@ -127,7 +127,7 @@ export const register = async (previousState, formData) => {
 
     return { success: true };
   } catch (error) {
-    console.log(err);
+    console.log(error);
     return { error: "Something went wrong" };
   }
 };

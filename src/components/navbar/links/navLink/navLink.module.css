@@ -15,18 +15,18 @@
     color: var(--bg);
 }
 
-@media (max-width: 767px) {
+@media (min-width: 530px) and (max-width: 690px) {
 
     .active {
         background-color: var(--text);
         color: var(--bg);
     }
     .container {
-        width: 80px;
+        width: 65px;
     }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 530px) {
 
     .active {
         background-color: var(--text);
@@ -35,19 +35,6 @@
 
     .container {
         width: 100%;
-    border-radius: 0;
-    }
-}
-
-@media (max-width: 400px) {
-
-    .active {
-        background-color: var(--text);
-        color: var(--bg);
-    }
-
-    .container {
-        width: 100%;
-    border-radius: 0;
+    border-radius: 5px;
     }
 }
