@@ -28,7 +28,7 @@ const PortfolioPage = () => {
                   <li>
                     <p className={styles.stack}>
                       Next.js 14 full-stack app using app router, server
-                      actions, MongoDB, Auth.js.
+                      actions, middleware, MongoDB, and Auth.js.
                     </p>
                   </li>
                   <li>
