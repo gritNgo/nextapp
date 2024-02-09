@@ -2,9 +2,8 @@ import styles from "./about.module.css";
 
 const AboutPage = () => {
   return (
-    <div className={styles.mainContainer}>
     <div className={styles.container}>
-      <div className={styles.main}>
+      <div className={styles.wrapper}>
         <div className={styles.stackContainer}>
           <div className={styles.stackTitle}>TECHNOLOGY I USE</div>
           <div className={styles.stack}>
@@ -57,7 +56,7 @@ const AboutPage = () => {
           </div>
         </div>
       <div className={styles.textContainer}>
-        <div className={styles.wrapper}>
+        <div className={styles.info}>
           <div className={styles.aboutTitle}>ABOUT THIS WEBSITE</div>
           <div className={styles.intro}>
             I chose web development as my career only in 2023.
@@ -97,7 +96,6 @@ const AboutPage = () => {
           </p>
         </div>
       </div>
-    </div>
     </div>
   );
 };
