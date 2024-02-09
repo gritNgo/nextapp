@@ -49,7 +49,8 @@
 
 
 @media (max-width: 340px) {
-    .wrapper {
+    .container {
+        margin-top: 10px;
     }
     .linkedinIcon, .githubIcon {
         font-size: 14px;
