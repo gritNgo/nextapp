@@ -3,7 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
 import Image from "next/image";
-<link rel="icon" href="/favicon.ico" sizes="512x512" />;
+<link rel="icon" href="/favicon.ico" sizes="any" />;
 
 
 
