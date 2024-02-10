@@ -25,10 +25,11 @@ const Home = () => {
             needed break after years of studying.{" "}
           </p>
           <p>
-            Moving to this beautiful country had always been a dream of mine. 
-            I began 2024 by finally making the move from where I called home for
-            nearly a decade, and am now looking for an opportunity where
-            I will be able to contribute in creating meaningful work through my creativity and great team spirit.
+            Moving to this beautiful country had always been a dream of mine. I
+            began 2024 by finally making the move from where I called home for
+            nearly a decade, and am now looking for an opportunity where I will
+            be able to contribute in creating meaningful work through my
+            creativity and great team spirit.
           </p>
         </div>
         <div className={styles.buttons}>
@@ -45,7 +46,12 @@ const Home = () => {
             </button>
           </Link>
           <button className={styles.resumeButton}>
-            Resume
+            <a
+              href="/pdf/FiorensoWattalageFernandoCV.pdf"
+              target="_blank"
+            >
+              Resume
+            </a>
           </button>
         </div>
         <div className={styles.contact}>
