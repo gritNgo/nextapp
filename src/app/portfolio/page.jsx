@@ -71,7 +71,7 @@ const PortfolioPage = () => {
                 can make payments thanks to Stripe API. Firebase is used as
                 storage of users and products.
               </li>
-              <li>Will be ready on 19/02/2024.</li>
+              <li>Under Maintenance.</li>
             </ul>
           </div>
         </div>
@@ -104,7 +104,7 @@ const PortfolioPage = () => {
                 JavaScript is used draw the characters and background on a
                 canvas element.
               </li>
-              <li>Will be ready on 19/02/2024.</li>
+              <li>Under Maintenance.</li>
             </ul>
           </div>
         </div>
