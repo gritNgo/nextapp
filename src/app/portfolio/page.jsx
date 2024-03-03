@@ -63,15 +63,20 @@ const PortfolioPage = () => {
             <ul>
               <li>
                 <p className={styles.stack}>
-                  Full stack MERN shopping application.
+                  Full stack MERN shopping application with Stripe payment
                 </p>
               </li>
               <li>
-                Once shopping cart has been filled and after logging in, user
+                Once shopping cart has been filled user
                 can make payments thanks to Stripe API. Firebase is used as
                 storage of users and products.
               </li>
-              <li>Under Maintenance.</li>
+              <li>Product Catalog: Range of products with images and prices
+              </li>
+              <li>
+                Shopping Cart: Manage selected items, view total cost, and
+                proceed to checkout
+              </li>
             </ul>
           </div>
         </div>
@@ -80,7 +85,7 @@ const PortfolioPage = () => {
           <a href="#" className={styles.link}>
             <Image
               className={styles.image}
-              src="/thumbnails/catchballThumbnail.png"
+              src="/thumbnails/rocketzThumbnail.PNG"
               alt=""
               width={420}
               height={210}
@@ -88,7 +93,7 @@ const PortfolioPage = () => {
           </a>
           <div className={styles.desc}>
             <a href="#">
-              <h3 className={styles.title}>Ballcatcher (JavaScript Game)</h3>
+              <h3 className={styles.title}>Rocketz (JavaScript Game)</h3>
             </a>
             <ul>
               <li>
@@ -97,14 +102,13 @@ const PortfolioPage = () => {
                 </p>
               </li>
               <li>
-                Characters throw the ball to each other using
-                mouse-click/press-hold drag. If the other catches, thrower wins.
+                Characters shoot rockets at each other using
+                mouse-click/press-hold drag. If the other gets shot, shooter wins.
               </li>
               <li>
                 JavaScript is used draw the characters and background on a
                 canvas element.
               </li>
-              <li>Under Maintenance.</li>
             </ul>
           </div>
         </div>
