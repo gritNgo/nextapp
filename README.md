@@ -5,6 +5,3 @@
 - Next.JS
 - MongoDB
 
-## Demo
-
-www.fiorensofernando.com
