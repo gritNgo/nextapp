@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./home.module.css";
-import { GitHub, LinkedIn } from "@mui/icons-material";
+import { GitHub, LinkedIn} from "@mui/icons-material";
 import Link from "next/link";
 
 const Home = () => {
@@ -10,26 +10,21 @@ const Home = () => {
         <h1 className={styles.title}>
           <br></br>
           Hi, I'm Fiorenso
-          <span className={styles.wave} role="img" aria-labelledby="wave">
-            👋🏽
-          </span>
         </h1>
         <div className={styles.desc}>
           <p>
-            I am a junior Full Stack JavaScript developer on the journey to
-            become an expert.
+            I am a .NET developer on the journey to
+            become an full stack expert.
           </p>
           <p>
-            After getting my Computing degree in London in 2022 I started
-            traveling for about a year while working part-time, which was a much
-            needed break after years of studying.{" "}
+            I have a degree in Computing from London, and after putting a brief pause to my career I have now resumed it. I have a strong foundation in C# and Cloud Computing, with good JavaScript and React basics as well. I am taking the AI-900 exam in June to solidify my understanding of Azure's AI workloads and Machine Learning basics, and keep expanding my knowledge by completing different paths on Azure and other technologies.
           </p>
           <p>
-            Moving to this beautiful country had always been a dream of mine. I
-            began 2024 by finally making the move from where I called home for
+            Moving to this beautiful country had always been a dream of mine so
+            I began 2024 by making the move from London which was my home for
             nearly a decade, and am now looking for an opportunity where I will
-            be able to contribute in creating meaningful work through my
-            creativity and great team spirit.
+            be able to contribute in creating meaningful work with my
+            creativity, and great team spirit.
           </p>
         </div>
         <div className={styles.buttons}>
@@ -47,10 +42,10 @@ const Home = () => {
           </Link>
           <button className={styles.resumeButton}>
             <a
-              href="/pdf/FiorensoWattalageFernandoCV.pdf"
+              href="/pdf/FiorensoWattalageFernando_May2024_CV.pdf"
               target="_blank"
             >
-              Resume
+              Résumé 
             </a>
           </button>
         </div>
@@ -69,16 +64,7 @@ const Home = () => {
           </span>
         </div>
       </div>
-      <div className={styles.imgContainer}>
-        <Image
-          className={styles.heroImg}
-          src="/home.jpg"
-          alt=""
-          width={300}
-          height={420}
-          priority
-        />
-      </div>
+      
     </div>
   );
 };
