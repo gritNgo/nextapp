@@ -11,105 +11,82 @@ const PortfolioPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.projects}>
-        <div className={styles.card}>
-          <a href="#" className={styles.link}>
+      <div className={styles.card}>
             <Image
               className={styles.image}
-              src="/thumbnails/portfolioThumbnail.png"
+              src="/thumbnails/comingsoon.jpg"
               alt=""
               width={420}
               height={210}
             />
-          </a>
           <div className={styles.desc}>
             <a href="#">
-              <h3 className={styles.title}>Portfolio</h3>
+              <h3 className={styles.title}>WorkflowEngine (C#)</h3>
             </a>
-            <ul>
-              <li>
-                <p className={styles.stack}>
-                  Next.js 14 full-stack app using app router, server actions,
-                  middleware, MongoDB, and Auth.js.
-                </p>
-              </li>
-              <li>
-                Posts can be viewed only if logged in (with arbitrary
-                credentials (username: john, password: 123456) or GitHub) but{" "}
-                <i>only admin</i> can create/update/delete posts .
-              </li>
-              <li>
-                These are fetched using the <b>JSONPlaceholder</b> website's
-                fake data REST API which works for all posts and single post
-                pages.
-              </li>
-            </ul>
+            <p className={styles.para}>
+            Simulation of a workflow engine that implements an interface to execute 
+            different implementations of the same method (Execute) in different 
+            workflows (UploadTrack and UploadVideo). 
+            Designed following the Open-closed principle in SOLID design, where 
+            the behavior of the application is
+             output on the console and can be changed only by adding new classes.
+            </p>
           </div>
         </div>
 
         <div className={styles.card}>
-          <a href="#" className={styles.link}>
             <Image
               className={styles.image}
-              src="/thumbnails/yakoThumbnail.png"
+              src="/thumbnails/comingsoon.jpg"
               alt=""
               width={420}
               height={210}
             />
-          </a>
           <div className={styles.desc}>
             <a href="#">
-              <h3 className={styles.title}>Yako (E-Commerce Store)</h3>
+              <h3 className={styles.title}>DbConnectCmd (C#)</h3>
             </a>
-            <ul>
-              <li>
-                <p className={styles.stack}>
-                  Full stack MERN shopping application with Stripe payment
-                </p>
-              </li>
-              <li>
-                Once shopping cart has been filled user
-                can make payments thanks to Stripe API. Firebase is used as
-                storage of users and products.
-              </li>
-              <li>Product Catalog: Range of products with images and prices
-              </li>
-              <li>
-                Shopping Cart: Manage selected items, view total cost, and
-                proceed to checkout
-              </li>
-            </ul>
+            <p className={styles.para}>
+            Simulation of connection to 2 different databases (SQL Server and Oracle) 
+            by using derived classes that contain override methods which provide the 
+            missing implementation for the abstract parent class. 
+            Demonstrates use of all four principles of Object-Oriented Programming.
+            </p>
           </div>
         </div>
 
         <div className={styles.card}>
-          <a href="#" className={styles.link}>
             <Image
               className={styles.image}
-              src="/thumbnails/rocketzThumbnail.PNG"
+              src="/thumbnails/comingsoon.jpg"
               alt=""
               width={420}
               height={210}
             />
-          </a>
           <div className={styles.desc}>
-            <a href="#">
-              <h3 className={styles.title}>Rocketz (JavaScript Game)</h3>
-            </a>
-            <ul>
-              <li>
-                <p className={styles.stack}>
-                  Simple 2D game in Vanilla JavaScript.{" "}
-                </p>
-              </li>
-              <li>
-                Characters shoot rockets at each other using
-                mouse-click/press-hold drag. If the other gets shot, shooter wins.
-              </li>
-              <li>
-                JavaScript is used draw the characters and background on a
-                canvas element.
-              </li>
-            </ul>
+              <h3 className={styles.title}>Stack  (C#)</h3>
+            <p className={styles.para}>
+            Simulation of the data structure “stack”, where objects can be pushed 
+            onto the stack and when popped will be displayed on the console. 
+            Demonstrates use of defensive programming and error handling.
+            </p>
+          </div>
+        </div>
+        <div className={styles.card}>
+            <Image
+              className={styles.image}
+              src="/thumbnails/comingsoon.jpg"
+              alt=""
+              width={420}
+              height={210}
+            />
+          <div className={styles.desc}>
+              <h3 className={styles.title}>Stopwatch  (C#)</h3>
+            <p className={styles.para}>
+            Simulation of a stopwatch with methods for starting and stopping that 
+            print duration on the console. Demonstrates use of encapsulation and 
+            fundamental knowledge of loops and conditional statements.
+            </p>
           </div>
         </div>
       </div>

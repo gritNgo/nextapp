@@ -26,11 +26,6 @@
   border-radius: 10px;
 }
 
-.link {
-  padding: 0px;
-  margin: 0;
-}
-
 .title {
   padding-top: 15px;
 }
@@ -49,17 +44,9 @@
   font-size: 20px;
 }
 
-.stack {
-  font-weight: 600;
-}
-
-.desc ul {
-  margin: 10px;
-}
-
-.desc li {
-  padding: 5px;
-  list-style: none;
+.para {
+  font-size: 14px;
+  line-height: 25px;
 }
 
 @media (min-width:1175px) and (max-width: 1360px) {

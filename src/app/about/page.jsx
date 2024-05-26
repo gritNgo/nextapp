@@ -62,9 +62,7 @@ const AboutPage = () => {
       </div>
       <div className={styles.boxes}> 
         <div className={styles.box}>
-          <b>
-            <h3><Construction className={styles.toolsIcon} /> Tools</h3>
-          </b>
+            <h3 className={styles.boxHeading}><Construction className={styles.toolsIcon} /> Tools</h3>
           <ul className={styles.list}>
             <li className={styles.checked}>Visual Studio</li>
             <li className={styles.checked}>Visual Studio Code</li>
@@ -74,9 +72,7 @@ const AboutPage = () => {
           </ul>
         </div>
         <div className={styles.box}>
-          <b>
-            <h3><WbIncandescent className={styles.bulbIcon} /> Knowledge</h3>
-          </b>
+            <h3 className={styles.boxHeading}><WbIncandescent className={styles.bulbIcon} /> Knowledge</h3>
           <ul className={styles.list}>
             <li className={styles.checked}>Unit Testing (MSTest)</li>
             <li className={styles.checked}>Entity Framework Core</li>

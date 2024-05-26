@@ -8,18 +8,22 @@ const Home = () => {
     <div className={styles.container}>
       <div className={styles.textContainer}>
         <h1 className={styles.title}>
-          <br></br>
-          Hi, I'm Fiorenso
+          Hi, I'm Fiorenso.
         </h1>
         <div className={styles.desc}>
+          <h3 className={styles.subHeading}>
+          I am a .NET developer on the journey to
+            become an expert, with my present focus on ASP .NET Core, 
+            and Cloud Development with Azure afterwards.
+          </h3>
           <p>
-            I am a .NET developer on the journey to
-            become an full stack expert.
-          </p>
-          <p>
-            I have a degree in Computing from London, and after putting a brief pause to my career I have now resumed it. I have a strong foundation in C# and Cloud Computing, with good JavaScript and React basics as well. I am taking the AI-900 exam in June to solidify my understanding of Azure's AI workloads and Machine Learning basics, and keep expanding my knowledge by completing different paths on Azure and other technologies.
-          </p>
-          <p>
+            <b>I have a degree in Computing from London</b>, and after putting a 
+            brief pause to my career I have now resumed it. I have a 
+            strong foundation in C# and Cloud Computing, with good JavaScript 
+            and React basics as well. I am taking the AI-900 exam in June to 
+            solidify my understanding of Azure's AI workloads and Machine 
+            Learning basics, and keep expanding my knowledge by completing 
+            different paths on Azure and other technologies.
             Moving to this beautiful country had always been a dream of mine so
             I began 2024 by making the move from London which was my home for
             nearly a decade, and am now looking for an opportunity where I will

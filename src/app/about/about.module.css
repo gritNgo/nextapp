@@ -1,5 +1,8 @@
 .container {
+  width: 100%;
+  margin: auto;
   display: flex;
+  justify-content: center;
   
 }
 
@@ -30,7 +33,14 @@
   font-weight: 600;
   text-align: center;
   display: flex;
+  align-items: center;
 }
+
+.computerIcon {
+  margin-right: 5px;
+  font-size: 25px;
+}
+
 
 .stack {
   display: flex;
@@ -79,8 +89,8 @@
 .boxes {
   display: flex;
   flex-direction: column;
-  height: 70vh;
-  width: 40vw;
+  height: 55vh;
+  width: 20vw;
   justify-content: space-around;
   margin-left: 10px;
   font-size: 16px;
@@ -102,13 +112,16 @@
   margin-right: 10px; /* Adjust margin for spacing */
 }
 
+
 .box h3 {
-  text-decoration: underline;
+  color: var(--textSoft);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
 }
 
-.box h1 {
-  color: var(--textSoft);
-  font-size: 30px;
+.toolsIcon, .bulbIcon {
+  margin-right: 5px;
 }
 
 .logo {
