@@ -12,15 +12,14 @@ const Home = () => {
         </h1>
         <div className={styles.desc}>
           <h3 className={styles.subHeading}>
-          I am a .NET developer on the journey to
-            become an expert, with my present focus on ASP .NET Core, 
-            and Cloud Development with Azure afterwards.
+          I am a developer on the journey to
+            become an expert in using .NET, with my present focus on ASP .NET Core, 
+            and Cloud Administration with Azure.
           </h3>
           <p>
             <b>I have a degree in Computing from London</b>, and after putting a 
             brief pause to my career I have now resumed it. I have a 
-            strong foundation in C# and Cloud Computing, with good JavaScript 
-            and React basics as well. I am taking the AI-900 exam in June to 
+            strong foundation in C#, Cloud Computing and with decent JavaScript basics. I am taking the AI-900 exam in June to 
             solidify my understanding of Azure's AI workloads and Machine 
             Learning basics, and keep expanding my knowledge by completing 
             different paths on Azure and other technologies.

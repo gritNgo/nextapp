@@ -76,9 +76,9 @@ const AboutPage = () => {
           <ul className={styles.list}>
             <li className={styles.checked}>Unit Testing (MSTest)</li>
             <li className={styles.checked}>Entity Framework Core</li>
-            <li className={styles.checked}>SDLC</li>
             <li className={styles.checked}>Agile</li>
             <li className={styles.checked}>SCRUM</li>
+            <li className={styles.checked}>SDLC</li>
           </ul>
         </div>
       </div>

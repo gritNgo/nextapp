@@ -106,6 +106,10 @@
   list-style: none; /* Remove default bullets */
 }
 
+.checked {
+  font-size: 18px;
+}
+
 .checked:before {
   content: "✓"; /* Replace "✓" with your preferred tick symbol */
   font-family: Inter; /* Choose a font for the tick */
