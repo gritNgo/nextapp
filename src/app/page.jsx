@@ -13,8 +13,7 @@ const Home = () => {
         <div className={styles.desc}>
           <h3 className={styles.subHeading}>
           I am a developer on the journey to
-            become an expert in using .NET, with my present focus on ASP .NET Core, 
-            and Cloud Administration with Azure.
+            become an expert in using .NET, with my present focus on ASP .NET Core & EF Core.
           </h3>
           <p>
             <b>I have a degree in Computing from London</b>, and after putting a 
