@@ -53,7 +53,7 @@ const PortfolioPage = () => {
         <div className={styles.card}>
           <Image
             className={styles.image}
-            src="/thumbnails/comingsoon.jpg"
+            src="/thumbnails/dbConnection.PNG"
             alt=""
             width={420}
             height={210}
@@ -74,7 +74,7 @@ const PortfolioPage = () => {
         <div className={styles.card}>
           <Image
             className={styles.image}
-            src="/thumbnails/comingsoon.jpg"
+            src="/thumbnails/worfklowEngine.PNG"
             alt=""
             width={420}
             height={210}
