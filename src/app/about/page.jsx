@@ -15,11 +15,10 @@ const AboutPage = () => {
           <div className={styles.logo}>
               <img src="/svg/csharp.svg" alt="CSharp" width="50" height="50" />
             </div>
+            
+            
             <div className={styles.logo}>
-              <img src="/svg/nodejs.svg" alt="Node.js" width="50" height="50" />
-            </div>
-            <div className={styles.logo}>
-              <img src="/svg/react.svg" alt="React" width="50" height="50" />
+              <img src="/svg/mysql.svg" alt="MySQL" width="50" height="50" />
             </div>
             <div className={styles.logo}>
               <img
@@ -28,9 +27,6 @@ const AboutPage = () => {
                 width="50"
                 height="50"
               />
-            </div>
-            <div className={styles.logo}>
-              <img src="/svg/mysql.svg" alt="MySQL" width="50" height="50" />
             </div>
             <div className={styles.logo}>
               <img
