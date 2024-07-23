@@ -12,22 +12,12 @@ const Home = () => {
         </h1>
         <div className={styles.desc}>
           <h3 className={styles.subHeading}>
-          I am a developer on the journey to
-            become an expert in using .NET, with my present focus on ASP .NET Core & EF Core.
+          I am an Italian-Sri Lankan from London with the goal to become an excellent .NET developer. 
+          I have a foundation in C# and Azure and keep expanding my knowledge continuously every day. 
+          Having moved to Bilthoven in February, I have been upgrading my computing skills from early morning 
+          while working at a hotel in the evening, and am now looking for an opportunity
+           where I will be able to contribute in creating meaningful work with my creativity, great team spirit, and tenacity.
           </h3>
-          <p>
-            <b>I have a degree in Computing from London</b>, and after putting a 
-            brief pause to my career I have now resumed it. I have a 
-            strong foundation in C#, Cloud Computing and with decent JavaScript basics. I am taking the AI-900 exam in June to 
-            solidify my understanding of Azure's AI workloads and Machine 
-            Learning basics, and keep expanding my knowledge by completing 
-            different paths on Azure and other technologies.
-            Moving to this beautiful country had always been a dream of mine so
-            I began 2024 by making the move from London which was my home for
-            nearly a decade, and am now looking for an opportunity where I will
-            be able to contribute in creating meaningful work with my
-            creativity, and great team spirit.
-          </p>
         </div>
         <div className={styles.buttons}>
           <Link href="https://www.linkedin.com/in/fiorenso-wattalage-fernando/">

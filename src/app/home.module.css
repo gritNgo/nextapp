@@ -16,10 +16,12 @@
 
 .title {
     font-size: 40px;
+    margin-top: 50px;
 }
 
 .subHeading {
     font-size: 20px;
+    margin-top: 30px;    
 }
 
 .desc {
@@ -43,7 +45,7 @@
     display: flex;
     gap: 20px;
     justify-content: center;
-    margin-top: -20px;
+    margin-top: -50px;
 }
 
 .linkedinButton, .githubButton, .resumeButton
