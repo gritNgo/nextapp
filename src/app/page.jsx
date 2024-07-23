@@ -34,7 +34,7 @@ const Home = () => {
           </Link>
           <button className={styles.resumeButton}>
             <a
-              href="/pdf/FiorensoWattalageFernando_May2024_CV.pdf"
+              href="/pdf/FiorensoWattalageFernando_July2024_CV.pdf"
               target="_blank"
             >
               Résumé 
